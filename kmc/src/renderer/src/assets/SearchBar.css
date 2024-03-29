@@ -1,0 +1,26 @@
+.search-bar-container {
+    display: flex; /* Use flexbox layout */
+    width: 100%; /* Take the whole width of the page */
+    justify-content: space-between; /* Spacing between items */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.search-input {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.search-button,
+.refresh-button {
+    width: 100px;
+    height: 5%;
+}
+
+.refresh-button {
+    margin-left: 10px; 
+}
