@@ -1,0 +1,39 @@
+.purchase-container {
+    max-width: 800px; /* Adjust container width if needed */
+    margin: auto;
+}
+
+.purchase-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.form-field {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between fields */
+}
+
+.form-field:last-child {
+    margin-right: 0;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field .MuiInputBase-input {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.button-container {
+    margin-top: 20px; /* Add margin between fields and button */
+}
